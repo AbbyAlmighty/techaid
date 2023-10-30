@@ -1,0 +1,36 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.signup form label {
+  font-weight: bold; /* Make labels bold */
+  margin-bottom: 8px;
+}
+
+.signup form input {
+  /* Add styling for input elements if needed */
+}
+
+.signup h1 {
+  /* Add styling for the heading if needed */
+}
+
+/* Style for the button container to align buttons in one line */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px; /* Add vertical spacing between buttons and form */
+}
